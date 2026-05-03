@@ -3,6 +3,8 @@ import { Outlet, useNavigate, useLocation } from "react-router";
 import { Menu, X } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 import { WhatsAppButton } from "./WhatsAppButton";
+import mcoLogo from "../../imports/MCO_Logo.png";
+
 
 const navContent = {
   en: {
@@ -92,9 +94,9 @@ export function Layout() {
               onClick={() => { navigate("/"); setMobileMenuOpen(false); }}
             >
               <img
-                src="https://dashmarketing.us/ayman_al-mansi.png"
+                src={mcoLogo}
                 alt="Ayman Al-Mansi Logo"
-                className="h-12 md:h-14 w-auto object-contain"
+                className="h-12 md:h-12 w-auto object-contain"
               />
             </div>
 

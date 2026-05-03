@@ -90,7 +90,7 @@ export function ContactMap({ language }: ContactMapProps) {
   }, [language]);
 
   return (
-    <div className="w-full rounded-xl overflow-hidden border-2 border-gray-200 shadow-sm">
+    <div className="w-full overflow-hidden border-b-0">
       <style>{`
         @keyframes cmPulse {
           0%,100% { transform:scale(0.85); opacity:0.25; }
@@ -141,7 +141,7 @@ export function ContactMap({ language }: ContactMapProps) {
 
       <div
         ref={containerRef}
-        className="h-64 sm:h-80 md:h-[420px] w-full"
+        className="h-[280px] sm:h-[360px] md:h-[440px] w-full"
       />
     </div>
   );

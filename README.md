@@ -1,7 +1,7 @@
 
-  # Arabic Corporate Website UI
+  # Ayman Al-Mansi Trading Group
 
-  This is a code bundle for Arabic Corporate Website UI. The original project is available at https://www.figma.com/design/V2gK9BHaTVURdOLHBcmmv0/Arabic-Corporate-Website-UI.
+  This is a code bundle for Ayman Al-Mansi Trading Group. The original project is available at https://www.figma.com/design/V2gK9BHaTVURdOLHBcmmv0/Ayman-Al-Mansi-Trading-Group.
 
   ## Running the code
 
