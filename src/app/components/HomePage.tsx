@@ -2,6 +2,7 @@ import { useNavigate } from "react-router";
 import bannerHero from "../../imports/Banner_hero.png";
 import aboutUs from "../../imports/aboutus.jpeg";
 import importExportImg from "../../imports/ImportandExport.jpeg";
+import coldStorgeImg from "../../imports/Cold_Storage.jpeg";
 import distributionImg from "../../imports/Distribution.jpeg";
 import rivanDubaiLogo from "../../imports/RivanDubai_Logo.png";
 import mcoLogo from "../../imports/MCO_Logo.png";
@@ -631,7 +632,7 @@ export function HomePage() {
               },
               {
                 icon: <Thermometer className="w-8 h-8" />,
-                img: "https://images.unsplash.com/photo-1769701164670-e819d92cc602?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+                img: coldStorgeImg,
                 ...t.services.items[2],
               },
               {
