@@ -5,6 +5,7 @@ import importExportImg from "../../imports/ImportandExport.jpeg";
 import coldStorgeImg from "../../imports/Cold_Storage.jpeg";
 import distributionImg from "../../imports/Distribution.jpeg";
 import rivanDubaiLogo from "../../imports/RivanDubai_Logo.png";
+import HotelRestaurantSupplyImg from "../../imports/Hotel_Restaurant_Supply.png";
 import mcoLogo from "../../imports/MCO_Logo.png";
 import {
   Leaf,
@@ -637,7 +638,7 @@ export function HomePage() {
               },
               {
                 icon: <Building2 className="w-8 h-8" />,
-                img: "https://images.unsplash.com/photo-1775797081003-d0b384df95c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800",
+                img: HotelRestaurantSupplyImg,
                 ...t.services.items[3],
               },
             ].map((service, idx) => (
